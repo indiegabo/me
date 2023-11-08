@@ -78,7 +78,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Universidade Salvador",
-      logo: require("./assets/images/unifacs-logo.jpg"),
+      logo: require("./assets/images/unifacs-logo.png"),
       subHeader: "Technologist  in Internet applied Systems",
       duration: "January 2011 - December 2013",
       desc: "Formed my self as a Systems Analyst focused on internet applied solutions",
@@ -126,7 +126,7 @@ const workExperiences = {
       desc: "Part time journey developing the Magic Land mobile game.",
       descBullets: [
         "Responsible for stablishing multiplayer network funcionality",
-        "Responsible for creating the C# http requests flow and scrtucture",
+        "Responsible for creating the C# http requests flow and structure",
         "Basically the glue between Unity and the backend",
       ]
     },
@@ -185,13 +185,13 @@ const bigProjects = {
 // Some big projects you have worked on
 
 const assetsProjects = {
-  title: "OpenSource Assets",
+  title: "Assets I have created",
   subtitle: "Things I made for the community",
   projects: [
     {
       image: require("./assets/images/sprite-animations-banner.png"),
       projectName: "Sprite Animations",
-      projectDesc: "A smooth and intuitive way to work with sprite sheets in Unity.",
+      projectDesc: "A smooth and intuitive way to work with sprite sheets in Unity. Free and OpenSource",
       footerLink: [
         {
           name: "Check it out!",
