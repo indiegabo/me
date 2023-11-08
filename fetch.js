@@ -79,9 +79,9 @@ if (USE_GITHUB_DATA === "true") {
       data += d;
     });
     res.on("end", () => {
-      fs.writeFile("./public/profile.json", data, function (err) {
+      fs.writeFile("./public/me/profile.json", data, function (err) {
         if (err) return console.log(err);
-        console.log("saved file to public/profile.json");
+        console.log("saved file to public/me/profile.json");
       });
     });
   });
