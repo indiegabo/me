@@ -67,6 +67,38 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Unity",
       fontAwesomeClassname: "fab fa-unity"
     },
+    {
+      skillName: "C#",
+      fontAwesomeClassname: "fas fa-code"
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "NodeJS",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "PHP",
+      fontAwesomeClassname: "fab fa-php"
+    },
+    {
+      skillName: "html-5",
+      fontAwesomeClassname: "fab fa-html5"
+    },
+    {
+      skillName: "css3",
+      fontAwesomeClassname: "fab fa-css3-alt"
+    },
+    {
+      skillName: "Databases",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -155,13 +187,13 @@ const bigProjects = {
   subtitle: "Some games I participated either as developer or Game Designer",
   projects: [
     {
-      image: require("./assets/images/boom-boom-castle-splash.png"),
-      projectName: "Boom Boom Castle",
-      projectDesc: "A game jam game made in Unity under the \"Colateral Effect\" theme. \"Best Theme\" fit category winner.",
+      image: require("./assets/images/magic-land-logo.png"),
+      projectName: "Magic Land",
+      projectDesc: "A mobile game made in Unity by the Estante Mágica team. I am currently a Magic Land development team member and the game is the most robust game project I have worked on until now.",
       footerLink: [
         {
-          name: "Play It",
-          url: "https://alternative-control.itch.io/boom-boom-castle"
+          name: "Check it out!",
+          url: "https://play.google.com/store/apps/details?id=com.EstanteMagica.MagicLand"
         }
         //  you can add extra buttons here.
       ]
@@ -174,6 +206,18 @@ const bigProjects = {
         {
           name: "Play It",
           url: "https://no-slopes.itch.io/chasing-illusions"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/boom-boom-castle-splash.png"),
+      projectName: "Boom Boom Castle",
+      projectDesc: "A game jam game made in Unity under the \"Colateral Effect\" theme. \"Best Theme\" fit category winner.",
+      footerLink: [
+        {
+          name: "Play It",
+          url: "https://alternative-control.itch.io/boom-boom-castle"
         }
         //  you can add extra buttons here.
       ]
