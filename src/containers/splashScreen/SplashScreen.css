@@ -10,6 +10,11 @@
   height: 50vh;
 }
 
+.splash-animation-container > div
+{
+  height: 100%;
+}
+
 .splash-title-container {
   font-size: 2.5rem;
   text-decoration: none;
