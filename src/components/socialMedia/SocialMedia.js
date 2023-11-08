@@ -1,6 +1,6 @@
 import React from "react";
 import "./SocialMedia.scss";
-import {socialMediaLinks} from "../../portfolio";
+import { socialMediaLinks } from "../../portfolio";
 
 export default function socialMedia() {
   if (!socialMediaLinks.display) {
@@ -16,30 +16,6 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-github"></i>
-          <span></span>
-        </a>
-      ) : null}
-
-      {socialMediaLinks.linkedin ? (
-        <a
-          href={socialMediaLinks.linkedin}
-          className="icon-button linkedin"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fab fa-linkedin-in"></i>
-          <span></span>
-        </a>
-      ) : null}
-
-      {socialMediaLinks.gmail ? (
-        <a
-          href={`mailto:${socialMediaLinks.gmail}`}
-          className="icon-button google"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fas fa-envelope"></i>
           <span></span>
         </a>
       ) : null}
@@ -116,6 +92,30 @@ export default function socialMedia() {
         </a>
       ) : null}
 
+      {socialMediaLinks.youtube ? (
+        <a
+          href={socialMediaLinks.youtube}
+          className="icon-button youtube"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-youtube"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.twitch ? (
+        <a
+          href={socialMediaLinks.twitch}
+          className="icon-button twitch"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-twitch"></i>
+          <span></span>
+        </a>
+      ) : null}
+
       {socialMediaLinks.kaggle ? (
         <a
           href={socialMediaLinks.kaggle}
@@ -124,6 +124,30 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-kaggle"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.linkedin ? (
+        <a
+          href={socialMediaLinks.linkedin}
+          className="icon-button linkedin"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-linkedin-in"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.gmail ? (
+        <a
+          href={`mailto:${socialMediaLinks.gmail}`}
+          className="icon-button google"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fas fa-envelope"></i>
           <span></span>
         </a>
       ) : null}
