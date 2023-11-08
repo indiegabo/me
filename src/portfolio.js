@@ -34,7 +34,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/indiegabo",
-  linkedin: "https://www.linkedin.com/in/gabriel-de-souza-leal-54b150251/",
+  linkedin: "https://www.linkedin.com/in/indiegabo/",
   youtube: "https://www.youtube.com/@OIndieGabo",
   twitch: "https://twitch.tv/indiegabo",
   gmail: "indiegabodev@gmail.com",
