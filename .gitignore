@@ -23,5 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 #user generated content
-public/me/profile.json
+public/profile.json
 public/blogs.json
